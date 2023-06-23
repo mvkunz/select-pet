@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C1ECE4;
+}
+
+h1 {
+  font-family: 'Lexend Peta', sans-serif;
+  text-align: center;
+  margin: 25px;
+  color: #FF9EAA;
+}
+
+img {
+  width: auto;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #3AA6B9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; 
+}
+
+.cat-dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#dog,
+#cat {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #FF9EAA;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  margin: 20px;
+}
+
+
+#dog:hover, #cat:hover {
+  color: #FFD0D0;
+  background-color: #FF9EAA;
+}
+
+.button-surprise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400vh; 
+}
+
+#surprise {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #3AA6B9;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#surprise:hover {
+  color: #FFD0D0;
+  background-color: #3AA6B9;
+}
+
+footer {
+  background-color: #3AA6B9;
+  color: #FF9EAA;
+  font-family: 'Lexend Peta', sans-serif;
+  font-weight: 300;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
